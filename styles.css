@@ -1,0 +1,102 @@
+nav ul{
+    list-style-type: none ;
+    background-color: #B577B5;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 16px;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+nav ul li:last-child{
+    border-right : none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #111111;
+}
+html{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, SkyBlue, SkyBlue 50%, LightCyan 50%, SkyBlue);
+    background-size: 8px 8px;
+}
+
+body{
+    border: 2px solid gray;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width:85%;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: thistle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul{
+    align-items: center;
+}
+
+li{
+    color: rgb(255, 183, 0);
+    list-style: disc;
+}
+
+.class{
+    background-color: #CD7F32;
+}
+h3{
+    color: rgb(119, 0, 255);
+    background-color: lightgreen;
+}
+
+h1{
+    color: aquamarine;
+    background-color: lightcoral;
+}
+
+.title{
+ color: royalblue;   
+}
+
+.stem {
+    color: royalblue;
+}
+
+.games{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    background-color: #CD7F32;
+    color: yellow;
+}
+.top-tip{
+    border: 4px solid #00AFEB;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #C5EBFB;
+}
+.top-tip::before{
+    color: black;
+    font-weight:bold;
+}
+.disabled-link{
+    pointer-events: none;
+    color: whitesmoke;
+}
+
